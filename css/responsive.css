@@ -308,7 +308,7 @@
 		max-width: 100%;
 	}
 }
-@media (max-width:400px){
+@media (max-width:240px){
 	.top_menu {
 		display: none;
 	}
