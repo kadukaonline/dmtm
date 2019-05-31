@@ -136,6 +136,7 @@
 	}
 	.header_area + section, .header_area + row, .header_area + div {
 		margin-top: 116px;
+		padding-top:50px
 	}
 
 	.top_menu {
@@ -307,23 +308,25 @@
 		max-width: 100%;
 	}
 }
-@media (max-width:575px){
+@media (max-width:400px){
 	.top_menu {
 		display: none;
 	}
+	.
 	.header_area + section, .header_area + row, .header_area + div {
 		margin-top: 71px;
 	}
+
     /* Home Banner Area css
 	============================================================================================ */
 	.home_banner_area .banner_inner .banner_content h2 {
 		font-size: 28px;
 	}
 	.home_banner_area {
-		min-height: 500px;
+		min-height: 100px;
 	}
 	.home_banner_area .banner_inner {
-		min-height: 500px;
+		min-height: 100px;
 	}
 	.blog_banner .banner_inner .blog_b_text {
 		margin-top: 0px;
