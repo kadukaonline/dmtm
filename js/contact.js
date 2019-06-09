@@ -52,6 +52,7 @@ $(document).ready(function(){
                     data: $(form).serialize(),
                     url:"https://usebasin.com/f/121ef696f3e9",
                     success: function() {
+                        alert("Köszönöm üzenetét, mihamarabb felveszem Önnel a kapcsolatot");
                         $('#contactForm :input').attr('disabled', 'disabled');
                         $('#contactForm').fadeTo( "slow", 1, function() {
                             $(this).find(':input').attr('disabled', 'disabled');
