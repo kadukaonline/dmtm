@@ -46,10 +46,10 @@
 	/* Home Banner Area css
 	============================================================================================ */
 	.home_banner_area {
-		min-height: 700px;
+		min-height: 500px;
 	}
 	.home_banner_area .banner_inner {
-		min-height: 700px;
+		min-height: 500px;
 	}
 	/* End Home Banner Area css
 	============================================================================================ */
@@ -420,10 +420,10 @@
 	/* End Blog Page Area css
 	============================================================================================ */
 	.home_banner_area {
-		min-height: 400px;
+		min-height: 100px;
 	}
 	.home_banner_area .banner_inner {
-		min-height: 400px;
+		min-height: 100px;
 	}
 	.counter_inner .counter_item {
 		flex: 0 0 100%;
