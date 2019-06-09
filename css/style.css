@@ -3787,7 +3787,7 @@ h6 {
 
 .team_item .team_img:before {
   content: "";
-  background: rgba(250, 183, 0, 0.85);
+  background: rgba(3, 175, 255, 0);
   position: absolute;
   left: 0px;
   top: 0px;
