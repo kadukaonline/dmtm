@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" href="img/favicon.png" type="image/png">
+		<title>DMT Mérnökiroda</title>
+		<meta name="description" content="Ingatlanfeljesztéssel és ingatlanbefektetéssel kapcsolatos mérnöki szolgáltatások. Tanácsadás, tervezés, értékbecslés és ingatlanközvetítés egy kézből">
+        <link rel="stylesheet" href="../../css/bootstrap.css">
+        <link rel="stylesheet" href="../../vendors/linericon/style.css">
+        <link rel="stylesheet" href="../../css/font-awesome.min.css">
+        <link rel="stylesheet" href="../../vendors/owl-carousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="../../vendors/lightbox/simpleLightbox.css">
+        <link rel="stylesheet" href="../../vendors/nice-select/css/nice-select.css">
+        <link rel="stylesheet" href="../../vendors/animate-css/animate.css">
+        <link rel="stylesheet" href="../../css/style.css">
+		<link rel="stylesheet" href="../../css/responsive.css">		
+    </head>
+
+
+
+    <body data-spy="scroll" data-target=".navbar">
+
+        <header class="header_area">
+            <div class="top_menu row m0", id="top">
+                <div class="container">
+         <div class="main_menu">
+             <nav class="navbar navbar-expand-xl navbar-light">
+                 <div class="container">
+                     <a class="navbar-brand logo_h" href="#"><img src="../../img/logo_small.png" alt="" style="width:50%;height:50%;"></a>
+                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                     </button>
+                     <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                         <ul class="navbar-nav nav menu_nav ml-auto">
+                             <li class="nav-item"><a class="nav-link active" href="../../index.html#top">Kezdőlap</a></li> 
+                             <li class="nav-item"><a class="nav-link" href="../../index.html#services">Szolgáltatások</a>
+                                 <li class="nav-item"><a class="nav-link" href="../../index.html#references">Referenciák</a>
+                                 <li class="nav-item"><a class="nav-link" href="../../index.html#about-me">Rólam</a></li> 
+                             <li class="nav-item"><a class="nav-link" href="../../index.html#contact">Kapcsolat</a></li>
+                             <li class="nav-item"><a class="nav-link" href="#top">Hirdetesek</a></li>
+                         </ul>
+                     </div> 
+                 </div>
+             </nav>
+         </div>
+     </header>
+
+        <section class="services_area p_121", id="services">
+                <div class="container">
+                        <div class="main_title">
+                            <h2>Aktuális hirdetéseink</h2>
+                        </div>
+
+                        <div class="row services_inner">
+
+                {% for ads in advertisements %}
+        		
+        			<div class="col-lg-4">
+        				<div class="services_item">
+        					<img src="../{{ads}}/index_img/building2_small.png" alt="">
+                            <h4>{{ads}}</h4>
+                            <a href="../{{ads}}/index.html">
+        				</div>
+        			</div>
+
+                    {% endfor %}		
+        			
+        			
+					
+        		</div>
+        	</div>
+        </section>
+
+
+
+
+
+    </body>
