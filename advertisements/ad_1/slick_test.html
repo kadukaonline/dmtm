@@ -1,0 +1,36 @@
+
+<html>
+    <head>
+    <title>My Now Amazing Webpage</title>
+    <link rel="stylesheet" type="text/css" href="../../vendors/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="../../vendors/slick/slick-theme.css"/>
+    </head>
+    <body>
+  
+        <div class="wrapper">
+            <h2>Slick Carousel Example<h2>
+          <div class="carousel">
+            <div><img src="http://lorempixel.com/200/200/nature/"></div>
+            <div><img src="http://lorempixel.com/200/200/fashion/"></div>
+            <div><img src="http://lorempixel.com/200/200/sports/"></div>
+            <div><img src="http://lorempixel.com/200/200/animal/"></div>
+            <div><img src="http://lorempixel.com/200/200/abstract/"></div>
+            <div><img src="http://lorempixel.com/200/200/people/"></div>
+          </div>
+          </div>
+  
+    <script type="text/javascript" src="../../js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../../vendors/slick/slick.min.js"></script>
+  
+    <script type="text/javascript">
+      $(document).ready(function(){
+  $('.carousel').slick({
+  slidesToShow: 1,
+  dots:true,
+  centerMode: true,
+  });
+});
+    </script>
+  
+    </body>
+  </html>
