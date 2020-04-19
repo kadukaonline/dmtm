@@ -4150,3 +4150,99 @@ h6 {
   background: #007bff;
 }
 
+/* ad page css */
+
+.tg_1 {
+  border-collapse: collapse;
+  width: 253px;
+}
+
+.tg_1 td {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 0.5px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: #e4e4e4;
+  color: #333;
+}
+
+.tg_1 tr:first-child td {
+  border-top: 0;
+}
+
+.tg_1 tr td:first-child {
+  border-left: 0;
+}
+
+.tg_1 tr:last-child td {
+  border-bottom: 0;
+}
+
+.tg_1 tr td:last-child {
+  border-right: 0;
+}
+
+.tg_1 th {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: black;
+}
+
+.tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-color: #ccc;
+}
+
+.tg td {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 10px 20px;
+  border-style: solid;
+  border-width: 0px;
+  overflow: hidden;
+  word-break: normal;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-color: #ccc;
+  color: #333;
+  background-color: #fff;
+}
+
+.tg th {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 0px;
+  overflow: hidden;
+  word-break: normal;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-color: #ccc;
+  color: #333;
+  background-color: #f0f0f0;
+}
+
+.tg .tg-oqs5 {
+  background-color: #f9f9f9;
+  border-color: #ffffff;
+  text-align: left;
+  vertical-align: top
+}
+
+.tg .tg-zv4m {
+  border-color: #ffffff;
+  text-align: left;
+  vertical-align: top
+}
